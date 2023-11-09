@@ -11,6 +11,11 @@ header {
     position: relative;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
+
 header h1 {
     font-size: 36px;
 }
@@ -119,4 +124,35 @@ button.ver-letra {
     border-radius: 5px;
     cursor: pointer;
     margin-right: 10px;
+}
+
+#playlist {
+    display:table;
+}
+
+#playlist li{
+    cursor:pointer;
+    padding:8px;
+}
+
+#playlist li a:hover{
+    color:blue;                        
+}
+
+#video-area {
+    float:left;
+    width:1280px;
+    height:720px;
+    margin:10px;    
+    border:1px solid silver;
+    
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor-padre {
+    display: inline-flex;
 }
