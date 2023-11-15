@@ -135,7 +135,7 @@ button.ver-letra {
     padding:8px;
 }
 
-#playlist li a:hover{
+.selector:hover{
     color:blue;                        
 }
 
@@ -147,6 +147,22 @@ button.ver-letra {
     border:1px solid silver;
     
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
 
 .centro {
     display: flex;
