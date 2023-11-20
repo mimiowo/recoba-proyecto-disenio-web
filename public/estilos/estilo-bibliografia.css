@@ -52,7 +52,7 @@ nav a {
 section {
     background-color: #fff;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 5px;
     margin: 20px;
 }
@@ -64,7 +64,6 @@ h2, h3 {
 #volver {
     background-color: #f9f9f9;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     margin: 20px;
     text-align: center;
