@@ -7,6 +7,14 @@ body {
     background-color: #f5f5f5;
 }
 
+#informacion blockquote {
+    border-left: 4px solid #ff6961;
+}
+
+#cronicas blockquote {
+    border-left: 4px solid #ff6961;
+}
+
 header {
     background-color: #333;
     color: white;
@@ -57,7 +65,7 @@ nav a {
 section {
     background-color: #fff;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 3px dashed #ff6961;
     border-radius: 5px;
     margin: 20px;
 }
@@ -69,7 +77,6 @@ h2, h3 {
 #volver {
     background-color: #f9f9f9;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     margin: 20px;
     text-align: center;
@@ -140,7 +147,7 @@ button.ver-letra {
 }
 
 .selector:hover{
-    color:blue;                        
+    color:#ff6961;                        
 }
 
 #video-area {
